@@ -1,6 +1,20 @@
 # 💻 WEB2-JavaScript
 [생활코딩 javascript](https://opentutorials.org/course/3085)<br>
-생활코딩의 WEB2-JavaScript강의를 들으며 개인 공부하는 저장소입니다.
+생활코딩의 WEB2-JavaScript강의를 들으며 개인 공부하는 저장소
+
+## 📌 list
+### ex01 
+- script 태그 개념
+### ex02 
+- 이벤트(on으로 시작하는)
+- onclick / onchange / onkeydown
+### ex03  
+- CSS기초
+- 태그 선택자( / ID선택자(#) / 클래스 선택자(.)
+### ex04 
+- CSS선택자를 사용하여 제어할 태그 선택
+- night / day모드 구현
+
 ## 📌 수업의 내용
 <h3>Run JavaScript</h3>
 
