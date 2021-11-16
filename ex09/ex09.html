@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex09</title>
+</head>
+<body>
+    <h1>Loop</h1>
+    <ul>
+    <script>
+        document.write('<li>1</li>');
+        var i = 0;
+        while(i < 3){
+            document.write('<li>2</li>');
+            document.write('<li>3</li>');
+            i = i + 1;
+        }
+        document.write('<li>4</li>');
+    </script>
+    </ul>
+
+    <hr>
+    <h1>Loop & Array</h1>
+    <h2>Co workers list</h2>
+    <ul>
+        <li>hashin</li>
+        <li>shan</li>
+        <li>donchoi</li>
+        <li>seucho</li>
+    </ul>
+    <p>위의 리스트를 배열과 반복문을 활용해 출력하기</p>
+    <script>
+        var coworkers = ['hashin', 'shan', 'donchoi', 'seucho']
+    </script>
+    <h2>Co workers</h2>
+    <ul>
+        <script>
+            var i = 0;
+            while(i < coworkers.length){
+            document.write('<li><a href="http://a.com/'+coworkers[i]+'"'+coworkers[i]+'</a></li>');
+            i++;
+            }
+        </script>
+    </ul>
+</body>
+</html>
