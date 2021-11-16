@@ -14,6 +14,25 @@
 ### ex04 
 - CSS선택자를 사용하여 제어할 태그 선택
 - night / day모드 구현
+### ex05
+- 비교 연산자와 Boolean 데이터 타입 연습
+- 조건문 연습
+### ex06
+- 조건문의 활용
+- night / day 버튼을 하나로 만드는 예제
+### ex07
+- 리팩토링으로 중복 코드 제거
+- `document.querySelector('#night_day')` → this키워드
+- `document.querySelector('body')` → 변수 선언
+### ex08
+- 배열의 선언 방법과 출력법
+- 배열의 다양한 함수 소개 및 사용법
+### ex09
+- 반복문 연습
+- 배열과 반복문 활용
+### ex10
+- `document.querySelectorAll()`
+- night / day 각 모드에서의 링크 글씨체 변환
 
 ## 📌 수업의 내용
 <h3>Run JavaScript</h3>
