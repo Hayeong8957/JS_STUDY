@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex08</title>
+</head>
+<body>
+    <h1>Array</h1>
+    
+    <h2>Syntax</h2>
+    <script>
+        var coworkers = ["hayeong", "hashin"];
+    </script>
+    
+    <h2>get</h2>
+    <script>
+        document.write(coworkers[0]);
+        document.write(coworkers[1]);
+    </script>
+    
+    <h2>add</h2>
+    <script>
+        coworkers.push('donchoi');
+        coworkers.push('shan');
+        coworkers.push('seucho');
+    </script>
+    
+    <h2>count</h2>
+    <script>
+        document.write(coworkers.length);
+    </script>
+
+    <h2>pop</h2>
+    <script>
+        var example = new Array("a", "b", "c");
+        example.pop();
+
+        document.write(example);
+        // 결과값 a, b
+    </script>
+
+    <h2>shift</h2>
+    <script>
+        var example = new Array("a", "b", "c");
+        example.shift();
+
+        document.write(example);
+        // 결과값 b, c
+    </script>
+
+    <h2>concat</h2>
+    <script>
+        var example = new Array("a", "b", "c");
+        var example2 = new Array("d", "e", "f");
+        example = example.concat(example2);
+
+        document.write(example);
+        // 결과값 a, b, c, d, e, f
+    </script>
+
+    <h2>join</h2>
+    <script>
+        var example = new Array("a", "b", "c");
+        example = example.join("/");
+
+        document.write(example);
+        //결과값 a/b/c
+    </script>
+
+    <h2>reverse</h2>
+        <script>
+            var example = new Array("a", "b", "c");
+            example.reverse();
+
+            document.write(example);
+            // 결과값 c, b, a
+        </script>
+
+    <h2>sort</h2>
+    <script>
+        var example = new Array(1, 4, 2, 3, 5);
+        example.sort();
+
+        document.write(example);
+        // 결과값 1, 2, 3, 4, 5
+    </script>
+
+    <h2>slice</h2>
+        <script>
+            var example = [1, 2, 3, 4];
+            var example2 = example.slice(0, -1);
+
+            document.write(example);
+            document.write("<br/>");
+
+            example2 = example.slice(-2);
+            document.write(example2);
+
+            // 결과값
+            // 1, 2, 3, 4
+            // 3, 4
+        </script>
+
+    <h2>splice</h2>
+    <script>
+        var example = ["a", "b", "c", "d"];
+        var example2 = example.splice(1, 2);
+
+        document.write(example);
+        document.write("<br/>");
+        document.write(example2)
+
+        //결과값
+        //a,d
+        //b,c
+    </script>
+
+</body>
+</html>
