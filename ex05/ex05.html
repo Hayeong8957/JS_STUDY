@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex05</title>
+</head>
+<body>
+    <h1>Comparison operator & Boolean</h1>
+    <h2>===</h2>
+    <h3>1===1</h3>
+    <script>
+        document.write(1===1);  // true 출력
+    </script>
+
+    <h3>1===2</h3>
+    <script>
+        document.write(1===2);  // false 출력
+    </script>
+
+    <h3>1&lt;2</h3>
+    <script>
+        document.write(1<2);  // true 출력
+    </script>
+
+    <h3>1&lt;1</h3>
+    <script>
+        document.write(1<1);  // false 출력
+    </script>
+
+    <hr>
+    <h1>Conditional statements</h1>
+    <h2>Program</h2>
+    <script>
+        // 순서에 따라 실행되는 단순한 프로그램
+        document.write("1<br>");
+        document.write("2<br>");
+        document.write("3<br>");
+        document.write("4<br>");
+    </script>
+
+    <h2>IF-true</h2>
+    <script>
+        // 순서에 따라 실행되는 단순한 프로그램
+        document.write("1<br>");
+        if(true){
+            document.write("2<br>");
+        } else {
+            document.write("3<br>");  
+            // 3을 무시하는 방향으로 실행의 순서가 바뀜
+        }
+        document.write("4<br>");
+    </script>
+
+    <h2>IF-false</h2>  
+    <script>
+        // 순서에 따라 실행되는 단순한 프로그램
+        document.write("1<br>");
+        if(false){
+            document.write("2<br>");
+            // 2를 무시하는 방향으로 실행의 순서가 바뀜
+        } else {
+            document.write("3<br>");  
+        }
+        document.write("4<br>");
+    </script>
+
+</body>
+</html>
