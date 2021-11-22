@@ -33,7 +33,15 @@
 ### ex10
 - `document.querySelectorAll()`
 - night / day 각 모드에서의 링크 글씨체 변환
-
+### ex11
+- 함수 선언, 함수의 값 반환, 함수의 값으로 사용하기
+- 함수를 사용하여 기존 night/day 코드 리팩토링
+### ex12
+- 객체 개념, 객체와 반복문, 프로퍼티와 메소드
+- 객체 사용하여 기존 night/day 코드 리팩토링
+### ex13
+- 파일로 쪼개서 정리정돈하기
+- index.html, HTML.html, CSS.html, JavaScript.html, color.js
 ## 📌 수업의 내용
 <h3>Run JavaScript</h3>
 
