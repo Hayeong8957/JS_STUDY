@@ -42,6 +42,9 @@
 ### ex13
 - 파일로 쪼개서 정리정돈하기
 - index.html, HTML.html, CSS.html, JavaScript.html, color.js
+### ex14
+- 라이브러리 vs 프레임워크 개념
+- jQuery 간단하게 
 ## 📌 수업의 내용
 <h3>Run JavaScript</h3>
 
