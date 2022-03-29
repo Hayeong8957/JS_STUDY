@@ -1,3 +1,7 @@
+# 💻 Directory : Dream-Coding
+[드림코딩 javascript](https://www.youtube.com/watch?v=OCCpGh4ujb8&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=3)<br>
+드림코딩의 JavaScript강의를 들으며 개념 재정비하는 저장소
+
 # 💻 Directory : WEB2-JavaScript
 [생활코딩 javascript](https://opentutorials.org/course/3085)<br>
 생활코딩의 WEB2-JavaScript강의를 들으며 개인 공부하는 저장소
