@@ -1,4 +1,4 @@
-# 💻 WEB2-JavaScript
+# 💻 Directory : WEB2-JavaScript
 [생활코딩 javascript](https://opentutorials.org/course/3085)<br>
 생활코딩의 WEB2-JavaScript강의를 들으며 개인 공부하는 저장소
 
