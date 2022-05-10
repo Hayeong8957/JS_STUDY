@@ -27,7 +27,7 @@ console.log(hashin.hasJob); // 삭제도 가능하다.
 // Key should be always string
 console.log(hashin.name); // 코딩하는 순간, 그 키에 해당하는 값을 받아오고 싶을 때
 console.log(hashin["name"]);
-// []를 이용해 object안의 변수를 string 형태로 접근 가능
+// []를 이용해 object안의 변수를 string 형태로 접근 가능 => computed properties
 // 정확하게 어떤 키가 필요한지 모를때, 런타임에서 결정될 때 사용
 hashin["hasJob"] = true;
 console.log(hashin.hasJob);
@@ -37,6 +37,7 @@ function printValue(obj, key) {
   console.log(obj[key]); // hashin
 }
 printValue(hashin, "name");
+// 동적으로 키를 받아와야하는 경우 유용
 
 // 3. Property value shorthand
 const person1 = { name: "bob", age: 2 };
@@ -48,6 +49,7 @@ function makePerson(name, age) {
   return {
     name, // name: name,
     age, // age: age,
+    // property value hand short기능으로 생략 가능
   };
 }
 
